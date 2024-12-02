@@ -2,7 +2,6 @@ const Hapi = require('@hapi/hapi')
 const routes = require('./routes')
 const InputError = require('../exceptions/InputError')
 const dotenv = require('dotenv')
-const InputError = require('../exceptions/InputError');
 
 dotenv.config()
 
